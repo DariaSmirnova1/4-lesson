@@ -1,9 +1,8 @@
-''' Zadanie I
+''' number 1
 __repr__
 __str__
 __len__
 '''
-
 #class Cat:
 #    def __init__(self,name, age):
 #        self.name=name
@@ -17,8 +16,7 @@ __len__
 #    return f"Cat(name = '{self.name}, age = '{self.age}')"
 #print(repr(cat))
 
-"Zadanie 2"
-
+"number 2"
 #def my_shiny_new_decorator(function_to_decorate):
 #    def the_wrapper_around_the_original_function():
 #        print("Я - код, который отработает до вызова функции")
@@ -37,8 +35,7 @@ __len__
 #    print("Оставьте меня в покое")
 #another_stand_alone_function()
 
-"Zadanie 3 - Sandwich"
-
+"number 3"
 #def bread(func):
 #    def wrapper():
 #        func()
@@ -58,8 +55,7 @@ __len__
 #    print(food)
 #sandwich()
 
-##"Zadanie 4"
-
+"number 4"
 #def a_decorator_passing_arguments(function_to_decorate):
 #    def a_wrapper_accepting_arguments(arg1, arg2):
 #        function_to_decorate(arg1, arg2)
@@ -70,23 +66,21 @@ __len__
 #    print("Меня зовут", first_name, last_name)
 #print_full_name("Vasya", "Pupkin")
 
-#"Zadanie 5"
+"number 5"
 #class Myclass(age, height):
 #    def __init__(self, age, height):
 #        self.age = age
 #        self.height = height
 
 
-#"Zadanie 6"
-
+"number 6"
 #class MathUtils:
 #    @staticmethod
 #    def add(a,b):
 #        return a+b
 
 
-#"Zadanie 7"
-
+"number 7"
 #class User:
 #    def __init__(self, name, age):
 #        self.name = name
@@ -102,7 +96,7 @@ __len__
 #if  User.is_valid_age(25) and User.is_valid_name("Иван"):
 #    user=User("Иван", 25)
 
-"Zadanie 8"
+"number 8"
 #class Shape:
 #    def area(self):
 #        print("Метод AREA должен быть определён")
@@ -112,7 +106,7 @@ __len__
 #        self.radius=radius
 #        "Дописать...."
 
-#"Zadanie 9"
+"number 9.1"
 #from abc import ABC, abstractmethod
 #class Shape(ABC):
 #    @abstractmethod
@@ -131,8 +125,7 @@ __len__
 #        return self.side ** 2
 #sq = Square(10)
 
-"Zadanie 9"
-
+"number 9.2"
 from abc import ABC, abstractmethod
 class DataProcessor(ABC):
     def __init__(self, data):
