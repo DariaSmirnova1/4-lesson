@@ -7,7 +7,6 @@ for row in rows:
 	users.append(row[1])
 print(users)
 
-
 ***Задча 1***
 python
 import sqlite3
@@ -61,14 +60,12 @@ rows = cursor.execute("""
     FROM games
     JOIN u.users ON games.user_id = u.users.id
 """).fetchall()
-
 rows_1 = cursor.execute("""
 	    SELECT games.id, name, u.user_id, age,            SUM(score) games.score
     FROM games
     LEFTJOIN u.users ON games.user_id = u.users.id
 GROUP BY games.user_id
 ORDER BY score""").fetchall()
-
 print(rows)
 conn.commit()
 conn.close()
